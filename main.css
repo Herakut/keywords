@@ -1,0 +1,40 @@
+body{
+ background-color:#435758 ;
+ color:white;
+}
+
+#logo{
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#mainKey{
+    width: 1500px;
+    display: inline-block;
+}
+.container{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;    
+}
+
+.mainKey-carac{
+    background-color: black; 
+}
+.mainKey-carac h1{
+    color:#32877c
+}
+
+.social-media-icons img{
+    width: 25px;
+    padding: 10px;
+}
