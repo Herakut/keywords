@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background-color: black;
+    background: var(--clr-2);
+}
+.hero{
+    background-color: #074f57;
+    background-image: url(/imagenes/Miscelanea/fondoFundido2.jpg);
+    height: 1500px;
+    color: bisque;
+    background-size: cover;
+    background-position: top;
+    
+}
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+:root{
+    --clr-1: #052b2f;
+    --clr-2: #073438;
+    --clr-3: #0e4b50;
+    --clr-4: #2d8f85; 
+    --clr-5: #637c54;
+}
+
+
+.card{
+    height: 60vh;
+    aspect-ratio: 1 / 1.5;
+    background: var(--clr-1);
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.card::before,
+.card::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        0deg,
+        var(--clr-3),
+        var(--clr-4),
+        var(--clr-5));
+    border-radius: inherit;
+
+}
+.card::after{
+    filter: blur(3.5rem);
+}
+.card::before,
+.card::after{
+    animation: rotation 20s linear infinite;
+}
+@keyframes rotation{
+    0% {transform: rotate(0)}
+    100% {transform: rotate(180deg);}
+}
+@property --gradient-angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+:root{
+    --clr-1: #052b2f;
+    --clr-2: #073438;
+    --clr-3: #0e4b50;
+    --clr-4: #2d8f85; 
+    --clr-5: #637c54;
+}

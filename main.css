@@ -1,12 +1,30 @@
 body{
- background-color:#435758 ;
- color:white;
+    margin: 0;
+    background-color: black;
+}
+.hero{
+    background-color: #074f57;
+    background-image: url(/imagenes/Miscelanea/fondoFundido2.jpg);
+    height: 1500px;
+    color: bisque;
+    background-size: cover;
+    background-position: top;
+    
+}
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;    
 }
 
 #logo{
     width: 100px;
     margin-top: 100px;
     margin-left: 100px;
+    background-size: cover;
+    
 }
 
 #mainKey{
@@ -32,6 +50,12 @@ li a{
 }
 .mainKey-carac h1{
     color:#32877c
+}
+
+.footerBorder{
+    border-top: solid;
+    border-top: 2px  transparent; /* Borde superior transparente */
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.322), rgba(0, 119, 255, 0));
 }
 
 .social-media-icons img{
